@@ -2,18 +2,18 @@
   <div id="bg">
     <div id="app">
       <img alt="Vue logo" src="./assets/logo.png" />
-      <to-do-app></to-do-app>
+      <TodoApp />
     </div>
   </div>
 </template>
 
 <script>
-import ToDoApp from "./components/ToDoApp.vue";
+import TodoApp from "./components/ToDoApp.vue";
 
 export default {
   name: "App",
   components: {
-    ToDoApp,
+    TodoApp,
   },
 };
 </script>

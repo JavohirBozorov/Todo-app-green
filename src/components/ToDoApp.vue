@@ -48,6 +48,7 @@
             id="basic-addon2"
           >
             <i class="fas fa-trash-alt"></i>
+            <!-- Test change -->
           </span>
         </div>
       </div>

@@ -66,14 +66,17 @@ export default {
       task: "",
       tasks: [
         {
+          id: 0,
           name: "Yangi darsni o'zlashtirish",
           checked: false,
         },
         {
+          id: 1,
           name: "Photoshop dasturini o'rganish",
           checked: true,
         },
         {
+          id: 2,
           name: "Reactni o'rganish",
           checked: false,
         },
@@ -128,7 +131,8 @@ input:focus {
   outline: none;
 }
 .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
-.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
 .input-group-text {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
